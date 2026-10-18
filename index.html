@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Portfolio</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1220; --panel:#121d30; --text:#edf2ff; --muted:#aab7cf; --accent:#69a7ff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif; background:linear-gradient(135deg,#0b1220,#17233a); color:var(--text); }
+    main { width:min(920px,92%); margin:0 auto; padding:48px 0 64px; }
+    .hero, section { background:rgba(18,29,48,.92); border:1px solid #2a3a55; border-radius:18px; padding:28px; margin:18px 0; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.12em; font-size:.8rem; font-weight:700; }
+    h1 { font-size:clamp(2.2rem,7vw,4rem); line-height:1.1; margin:.35em 0; }
+    h2 { margin-top:0; }
+    p, li { color:var(--muted); }
+    a { color:#8ec5ff; }
+    .chips { display:flex; flex-wrap:wrap; gap:8px; padding:0; list-style:none; }
+    .chips li { background:#1b2b45; border:1px solid #304565; border-radius:999px; padding:5px 12px; color:var(--text); }
+    .project { padding:16px 0; border-top:1px solid #2a3a55; }
+    footer { text-align:center; color:var(--muted); padding-top:14px; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div class="eyebrow">Student Portfolio</div>
+      <h1>Hello, I'm a student building practical data and software projects.</h1>
+      <p>I enjoy turning real-world problems into clear analysis, useful tools, and simple web experiences.</p>
+      <p><strong>Email:</strong> <!--email_off-->24f2001097@ds.study.iitm.ac.in<!--/email_off--></p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>I am learning data analysis, programming, and web development. I like projects that combine careful problem-solving with results that people can understand and use.</p>
+    </section>
+
+    <section>
+      <h2>Skills I'm developing</h2>
+      <ul class="chips">
+        <li>Python</li><li>SQL</li><li>Excel</li><li>Data Analysis</li><li>HTML &amp; CSS</li><li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Projects</h2>
+      <article class="project">
+        <h3>Sales Data Analysis</h3>
+        <p>Analyzed transaction data, filtered records by region and date, and calculated revenue from quantity and price.</p>
+      </article>
+      <article class="project">
+        <h3>Configuration API</h3>
+        <p>Built a small API concept demonstrating layered configuration, environment-variable precedence, type conversion, and secret masking.</p>
+      </article>
+      <article class="project">
+        <h3>File Organization Automation</h3>
+        <p>Practiced shell-based file discovery, category-based organization, and checksum verification for repeatable workflows.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>I'm interested in learning, collaborating, and building useful projects. Reach me at
+        <!--email_off-->24f2001097@ds.study.iitm.ac.in<!--/email_off-->.
+      </p>
+    </section>
+    <footer>© 2026 Student Portfolio · Built with HTML and CSS</footer>
+  </main>
+</body>
+</html>
